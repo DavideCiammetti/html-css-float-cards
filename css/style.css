@@ -10,6 +10,12 @@ common
 body{
     font-family: 'Fredoka', sans-serif;
 }
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
 /*
 common
 */
@@ -37,18 +43,17 @@ fine intestazione(1)
 /*
 inizio mian(2)
 */
-div.box{
-    background-color: #e53170;
-    border:1px solid black;
-    margin: 0 auto;
-    float: left;
-}
-.box-content{
-    padding: 0 155px;
+.middle-container{
+    padding: 0 140px;
 }
 
-.box{
-    width: calc(100% / 3);
+.box-content .box{
+    width: calc(100% / 3 - 20px);
+    background-color: #e53170;
+    border:1px solid black;
+    float: left;
+    margin: 10px;
+    width: calc(100% / 3 - 20px);
 }
 
 /*
