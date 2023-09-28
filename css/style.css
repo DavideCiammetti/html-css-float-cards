@@ -1,3 +1,6 @@
+/*
+common
+*/
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +10,13 @@
 body{
     font-family: 'Fredoka', sans-serif;
 }
+/*
+common
+*/
+
+/*
+inizio intestazione(1)
+*/
 header{
     padding: 44px;
     text-align: center;
@@ -20,3 +30,27 @@ header{
    margin-bottom: 30px;
    color: #e53170;
 }
+/*
+fine intestazione(1)
+*/
+/**************************************************************************************************/
+/*
+inizio mian(2)
+*/
+div.box{
+    background-color: #e53170;
+    border:1px solid black;
+    margin: 0 auto;
+    float: left;
+}
+.box-content{
+    padding: 0 155px;
+}
+
+.box{
+    width: calc(100% / 3);
+}
+
+/*
+fine mian(2)
+*/
