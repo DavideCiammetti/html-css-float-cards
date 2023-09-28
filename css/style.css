@@ -49,11 +49,40 @@ inizio mian(2)
 
 .box-content .box{
     width: calc(100% / 3 - 20px);
-    background-color: #e53170;
+    background-color: #0f0e17;
     border:1px solid black;
     float: left;
     margin: 10px;
     width: calc(100% / 3 - 20px);
+}
+
+img{
+    width: 100px;
+    float: left;
+}
+
+.box-text{
+    color: white;
+    float: left;
+    width: calc(100% - 100px);
+}
+
+.box{
+    width: 100%;
+    display: block;
+}
+
+p, a{
+    margin:10px 0 6px 10px;
+    text-decoration: none; 
+}
+
+.marcatura{
+    font-weight: 700;
+}
+
+a{
+    color: #0078d3;
 }
 
 /*
