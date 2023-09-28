@@ -7,3 +7,16 @@
 body{
     font-family: 'Fredoka', sans-serif;
 }
+header{
+    padding: 44px;
+    text-align: center;
+}
+
+.main-container{
+    padding: 0 100px;
+}
+
+.main-title{
+   margin-bottom: 30px;
+   color: #e53170;
+}
