@@ -56,6 +56,11 @@ inizio mian(2)
     width: calc(100% / 3 - 20px);
 }
 
+.box{
+    width: 100%;
+    display: block;
+}
+
 img{
     width: 100px;
     float: left;
@@ -65,11 +70,6 @@ img{
     color: white;
     float: left;
     width: calc(100% - 100px);
-}
-
-.box{
-    width: 100%;
-    display: block;
 }
 
 p, a{
